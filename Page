@@ -1,0 +1,75 @@
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameShop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        section {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to GameShop</h1>
+        <p>Your go-to destination for games on all platforms</p>
+    </header>
+
+    <section>
+        <h2>About GameShop</h2>
+        <p>GameShop is dedicated to providing a wide selection of games for all gaming platforms. Whether you're a console gamer, PC enthusiast, or mobile gamer, we've got something for everyone.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <p>Explore our collection of games for:</p>
+        <ul>
+            <li>PC</li>
+            <li>PlayStation</li>
+            <li>Xbox</li>
+            <li>Nintendo</li>
+            <li>Mobile</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Feel free to reach out to us.</p>
+        <p>Email: your.email@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 GameShop. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
